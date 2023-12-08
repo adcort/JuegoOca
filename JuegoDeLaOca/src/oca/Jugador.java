@@ -6,8 +6,9 @@ public class Jugador {
 	private int turnosRestantes;
 	private boolean activo;
 	
-	public Jugador() {
+	public Jugador(String n) {
 		activo = true;
+		this.nombre = n;
 	}
 	
 	public String getNombre() {
