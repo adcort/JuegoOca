@@ -22,7 +22,7 @@ public class Server {
 
             System.out.println("[SERVIDOR] Esperando a los jugadores...");
                                                
-            while (counter.getCount() - 1  > 0) { // Porque he tenido que poner este menos uno
+            while (counter.getCount() - 1  > 0) {
             
                 try {
             
