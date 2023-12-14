@@ -51,7 +51,7 @@ public class Juego {
 							}else {
 								j.setCasilla(casilla);
 							}
-							Thread.sleep(1000);
+							Thread.sleep(2000);
 						}
 						else {
 							enviarMensaje(j.getNombre() + " tiene que esperar " + j.getTurnosRestantes() +"\n");
